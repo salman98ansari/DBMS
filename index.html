@@ -1,0 +1,89 @@
+<!--
+    Document   : index
+    Created on : October 07, 2018, 23:05:00 PM
+    Author     : Shadab Shaikh
+-->
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>JSP</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                
+                margin: 0;
+            }
+           
+          
+            .content {
+                text-align: center;
+
+
+            }
+            .title {
+                font-size: 100px;
+            }
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 20px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            .m-b-md {
+            	margin-top: 2em;
+                margin-bottom: 30px;
+            }
+            .security{
+                bottom: 0.1em;
+                
+                background: url(css/inventory.jpg);
+                height: 650px;
+                position: fixed;
+                background-size: 100%;
+                left: 0;
+                right: 0;
+                z-index: -1;
+                opacity: 1.0;
+                background-repeat: no-repeat;
+            }
+            .image{
+                background-image: url(css/inven.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                height: 100vh;
+                width: 100%;        
+            }
+        </style>
+    </head>
+    <body>
+            <div class='security image'></div>
+
+            <div class="content">
+                <div class="title m-b-md">
+                   <font color="black"> Inventory Management </font>
+                </div>
+
+                <div class="links">
+                    <a href="Add/addnew.jsp"><font color="black"> Registration </font></a>
+                    <a href="Login/login.jsp"><font color="black">Login </font></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
